@@ -1,4 +1,4 @@
-/* Translation-Revision-Date: 2020-11-17 23:14:46+0000 */
+/* Translation-Revision-Date: 2020-12-01 20:57:49+0000 */
 /* Plural-Forms: nplurals=6; plural=(n == 0) ? 0 : ((n == 1) ? 1 : ((n == 2) ? 2 : ((n % 100 >= 3 && n % 100 <= 10) ? 3 : ((n % 100 >= 11 && n % 100 <= 99) ? 4 : 5)))); */
 /* Generator: GlotPress/3.0.0-alpha.2 */
 /* Language: ar */
@@ -185,7 +185,7 @@
 "%ld files successfully uploaded" = "تم رفع %ld من الملفات بنجاح";
 
 /* Displays the number of words and characters in text */
-"%li words, %li characters" = "%1$lكلمات i و%2$lحروف i";
+"%li words, %li characters" = "%1$li كلمات، %2$li أحرف";
 
 /* translators: %s: block title e.g: \"Paragraph\". */
 "%s block options" = "%s خيارات المكوِّن";
@@ -672,7 +672,7 @@
 "Are you sure you want to continue?\n All site data for %@ will be removed from your %@." = "هل أنت متأكد من أنك تريد المتابعة؟\nجميع بيانات الموقع لـ %1$@ ستتم إزالتها من %2$@ الخاص بك.";
 
 /* Title for the remove site confirmation alert, %@ will be replaced with iPhone/iPad/iPod Touch */
-"Are you sure you want to continue?\n All site data will be removed from your %@." = "هل أنت متأكد من رغبتك في المتابعة؟\n ستتم إزالة جميع بيانات الموقع من ‎‏‎%‎@‎‏ الخاص بك.";
+"Are you sure you want to continue?\n All site data will be removed from your %@." = "هل أنت متأكد من رغبتك في المتابعة؟\n ستتم إزالة جميع بيانات الموقع من الـ %@ الخاص بك.";
 
 /* Menus confirmation text for confirming if a user wants to delete a menu. */
 "Are you sure you want to delete the menu?" = "هل أنت متأكد من رغبتك في حذف القائمة؟";
@@ -1469,7 +1469,7 @@
 "Contact us at %@" = "اتصل بنا على %@";
 
 /* Displays the number of blocks, words and characters in text */
-"Content Structure\nBlocks: %li, Words: %li, Characters: %li" = "هيكل المحتوى \nالمكوِّنات: ⁦%1$l⁩i، الكلمات: %2$li، الأحرف: %3$li";
+"Content Structure\nBlocks: %li, Words: %li, Characters: %li" = "بنية المحتوى \nالمكوِّنات: %1$li، الكلمات: %2$li، الأحرف: %3$li";
 
 /* No comment provided by engineer. */
 "Content…" = "المحتوى…";
@@ -2462,7 +2462,7 @@
 "Follow Site" = "متابعة الموقع";
 
 /* Verb. Button title. Follow the comments on a post. */
-"Follow conversation" = "متابعة المحادثة";
+"Follow conversation" = "تابع المحادثة";
 
 /* Title of a Quick Start Tour */
 "Follow other sites" = "متابعة مواقع أخرى";
@@ -3378,7 +3378,7 @@ translators: sample content for \"Services\" page template */
 "Media uploaded (%ld files)" = "الوسائط المرفوعة (%ld الملفات)";
 
 /* Alert displayed to the user when a single media item has uploaded successfully. */
-"Media uploaded (1 file)" = "الوسائط المرفوعة (%ld الملف)";
+"Media uploaded (1 file)" = "الوسائط المرفوعة (ملف واحد)";
 
 /* Medium image size. Should be the same as in core WP. */
 "Medium" = "متوسط";
@@ -7313,7 +7313,7 @@ translators: sample content for \"Services\" page template */
 "You don't have any trashed posts" = "ليس لديك أي مقالات تم وضعها في سلة المهملات";
 
 /* Message informing the user that all of their sites are currently hidden (plural) */
-"You have %lu hidden WordPress sites." = "لديك %l مواقع WordPress مخفاة.";
+"You have %lu hidden WordPress sites." = "لديك %lu مواقع ووردبريس مخفية.";
 
 /* Message informing the user that all of their sites are currently hidden (singular) */
 "You have 1 hidden WordPress site." = "لديك موقع WordPress واحد مخفى.";
@@ -7354,7 +7354,7 @@ translators: sample content for \"Services\" page template */
 
 /* Message displayed in popup when user has the option to load unsaved changes. 
  is a placeholder for a new line, and the two %@ are placeholders for the date of last save on this device, and date of last autosave on another device, respectively. */
-"You recently made changes to this post but didn't save them. Choose a version to load:\n\nFrom this device\nSaved on %@\n\nFrom another device\nSaved on %@\n" = "لقد أجريت مؤخرًا تغييرات على هذه المقالة، ولكنك لم تحفظها. اختر نسخة لتحميلها:\n\nمن هذا الجهاز\nتم الحفظ في %1$\n\nمن جهاز آخر\nتم الحفظ في %2$@\n";
+"You recently made changes to this post but didn't save them. Choose a version to load:\n\nFrom this device\nSaved on %@\n\nFrom another device\nSaved on %@\n" = "لقد أجريت مؤخرًا تغييرات على هذه المقالة، ولكنك لم تحفظها. اختر نسخة لتحميلها:\n\nمن هذا الجهاز\nتم الحفظ في %1$@\n\nمن جهاز آخر\nتم الحفظ في %2$@\n";
 
 /* Notification text - below a comment notification detail */
 "You replied to this comment." = "لقد قمتَ بالرد على هذا التعليق.";
@@ -7575,7 +7575,7 @@ translators: sample content for \"Services\" page template */
 "{G} Log in with Google." = "{G} تسجيل الدخول باستخدام Google.";
 
 /* About View's Footer Text. The variable is the current year */
-"© %ld Automattic, Inc." = "© %@ Automattic, Inc.";
+"© %ld Automattic, Inc." = "© %ld Automattic, Inc.";
 
 /* Item 4 of delete screen section listing things that will be deleted. */
 "• Domains" = "• نطاقات";
